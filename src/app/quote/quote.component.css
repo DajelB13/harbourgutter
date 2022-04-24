@@ -1,0 +1,30 @@
+#quotePage{
+  position: relative;
+  top: 22vh;
+}
+.form-group{
+  padding: 2vh 2vh 3vh;
+}
+
+#quoteForm{
+  position: relative;
+  top: 3vh;
+  width:62%;
+  font-size: 1.3vw;
+  outline-style: outset;
+  outline-color: #F5F5F5;
+}
+
+#quotePhoto{
+  opacity: 0.9;
+  filter: brightness(90%);
+  position:relative;
+  top: 20vh;
+}
+#submit-button{
+  font-size: 1.2vw;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+  padding-bottom: 10vh;
+}

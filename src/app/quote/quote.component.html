@@ -1,0 +1,30 @@
+<img id="quotePhoto" src="././assets/images/quotebanner.png" width="1600" height="180">
+<div class="container" style="text-align: center;">
+  <h1 style="position:relative; top: 23vh;">Get Your Quote Now</h1>
+</div>
+<div id="quotePage" class="container">
+  <div id="quoteForm" class="container bg-light rounded">
+    <form [formGroup]="quoteForm">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input class="form-control" id="name" type="text" formControlName="name" placeholder="Enter your name...">
+      </div>
+      <div class="form-group">
+        <label for="phoneNum">Phone</label>
+        <input class="form-control" id="phoneNum" type="text" formControlName="phoneNum" placeholder="Phone #">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" id="email" type="text" formControlName="email" placeholder="Enter your email address...">
+      </div>
+      <div class="form-group">
+        <label for="comment">Briefly explain the work you'd like done</label>
+        <textarea class="form-control" id="comment" type="text" formControlName="comment" rows="4"></textarea>
+      </div>
+    </form>
+  </div>
+  <div id="submit-button">
+    <button type="submit" class="btn btn-primary" (click)="sendEmail()">Submit</button>
+  </div>
+
+</div>
