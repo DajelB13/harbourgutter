@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
-import {EmailService} from "../email.service";
 
 @Component({
   selector: 'app-quote',
@@ -23,15 +22,13 @@ export class QuoteComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sendEmail() {
+  onSubmit() {
       let email = {
         name: this.quoteForm.get('name')?.value,
         phoneNum: this.quoteForm.get('phoneNum')?.value,
         email: this.quoteForm.get('email')?.value,
-        comment: this.quoteForm.get('comment')?.value
+        comment: this.quoteForm.get('email')?.value
       }
-
-
       console.log(email);
   }
 }
