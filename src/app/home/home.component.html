@@ -1,23 +1,63 @@
-<div style="position:relative; top: 20vh;">
-  <img id="getAQuotePic" src="./assets/images/homebanner.png" alt="gutter installation">
-</div>
+<div id="homePage">
+    <img id="getAQuotePicDesktop" src="./assets/images/homebanner3.png" alt="gutter installation homepage">
+  <img id="getAQuotePicMobile" src="./assets/images/aboutusphoto.png" alt="gutter cleaning homepage">
+  <div id= "getAQuoteDiv" class="container">
+    <button id="getAQuoteButton" type="button" class="btn btn-light" routerLink="/quote">GET QUOTE</button>
+  </div>
 
-<div id= "getAQuoteDiv" class="container">
-  <button id="getAQuoteButton" type="button" class="btn btn-light" routerLink="/quote">CLICK HERE FOR A FREE QUOTE</button>
+  <section id="testimonials" class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel slide" data-bs-ride="carousel" id="quote-carousel" data-bs-interval="false">
+            <div id="testimonialHeader">
+              <h3>Testimonials</h3>
+            </div>
+            <!-- Carousel Slides / Quotes -->
+            <div class="carousel-inner text-center">
+              <!-- Quote 1 -->
+              <div class="carousel-item active">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 testimony-text">
+                      <p>{{testimonialsQuote[0]}}</p>
+                      <small>{{testimonialsAuthor[0]}}</small>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="carousel-item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 testimony-text">
+                      <p>{{testimonialsQuote[1]}}</p>
+                      <small>{{testimonialsAuthor[1]}}</small>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="carousel-item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 testimony-text">
+                      <p>{{testimonialsQuote[2]}}</p>
+                      <small>{{testimonialsAuthor[2]}}</small>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          <!-- Carousel Buttons Next/Prev -->
+            <div id="viewTestimonialsDiv">
+              <a routerLink="/testimonials" id="viewTestimonials" routerLinkActive="active">View Testimonials</a>
+            </div>
+          <a data-bs-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+          <a data-bs-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
 
 

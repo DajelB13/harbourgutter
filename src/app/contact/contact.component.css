@@ -1,14 +1,454 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media screen and (min-width: 320px) and (max-width: 399px){
+  #mobileStretch{
+    visibility: hidden;
+    width: 479px;
+  }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+  #contactPage {
+    position: relative;
+    margin-top: 20vh;
+    left: 13vw;
+  }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+  #contactContent{
+    position: relative;
+    left: 6vw;
+  }
+
+  .contact-images{
+    width: 284px;
+    height: 237px;
+  }
+
+  .contact-header{
+    text-align: center;
+    position: relative;
+    right: 6vw;
+  }
+  .contact-info{
+    text-align: left;
+    font-size: 1em;
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoPhone{
+    margin-right: 100px;
+  }
+
+  #RyanPhone{
+    margin-right: 90px;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 479px){
+  #mobileStretch{
+    visibility: hidden;
+    width: 479px;
+  }
+
+  #contactPage {
+    position: relative;
+    margin-top: 20vh;
+    left: 11vw;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  #contactContent{
+    position: relative;
+    left: 6vw;
+  }
+
+  .contact-images{
+    width: 284px;
+    height: 237px;
+  }
+
+  .contact-header{
+    text-align: center;
+    position: relative;
+    right: 6vw;
+  }
+  .contact-info{
+    text-align: left;
+    font-size: 1em;
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoPhone{
+    margin-right: 100px;
+  }
+
+  #RyanPhone{
+    margin-right: 90px;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 575px){
+  #mobileStretch{
+    visibility: hidden;
+    width: 600px;
+  }
+
+  #contactPage {
+    position: relative;
+    margin-top: 21vh;
+    left: 3vw;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  #contactContent{
+    position: relative;
+    left: 10vw;
+  }
+
+  .contact-images{
+    width: 341px;
+    height: 284px;
+    align-self: center;
+  }
+
+  .contact-info{
+    text-align: left;
+    font-size: 1.1em;
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  #contactPage {
+    position: relative;
+    margin-top: 20vh;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  .contact-images{
+    width: 568px;
+    height: 475px;
+  }
+
+  .contact-header{
+    text-align: center;
+  }
+  .contact-info{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .left-align{
+    display: inline-block;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoPhone{
+    margin-right: 121px;
+  }
+
+  #RyanPhone{
+    margin-right: 111px;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+  #mobileStretch{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+  #contactPage {
+    position: relative;
+    margin-top: 15vh;
+    left: 16vw;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  #contactContent{
+    position: relative;
+    left: 5vw;
+  }
+
+  .contact-images{
+    width: 568px;
+    height: 475px;
+  }
+
+  .contact-header{
+    text-align: center;
+    position: relative;
+    right: 4vw;
+  }
+  .contact-info{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    padding-bottom: 2vh;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoPhone{
+    margin-right: 121px;
+  }
+
+  #RyanPhone{
+    margin-right: 111px;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+  #mobileStretch{
+    visibility: hidden;
+    width: 1060px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1023px){
+  #contactPage {
+    position: relative;
+    margin-top: 20vh;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  .contact-images{
+    width: 568px;
+    height: 475px;
+  }
+
+  .contact-header{
+    text-align: center;
+  }
+  .contact-info{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoPhone{
+    margin-right: 121px;
+  }
+
+  #RyanPhone{
+    margin-right: 111px;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+  #mobileStretch{
+    display: none;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  #contactPage {
+    position: relative;
+    margin-top: 20vh;
+  }
+
+  #contactUsHeader{
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  .contact-images{
+    width: 568px;
+    height: 475px;
+  }
+
+  .contact-header{
+    text-align: center;
+  }
+  .contact-info{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .left-align{
+    display: inline-block;
+  }
+
+  .bold{
+    font-weight: bolder;
+  }
+
+  #PacoContactContent{
+    margin-right: 8%;
+  }
+
+  #PacoPhone{
+    margin-right: 121px;
+  }
+
+  #RyanPhone{
+    margin-right: 111px;
+  }
+
+  .email{
+    text-decoration: none;
+    color: black;
+  }
+  .email:hover{
+    text-decoration: underline;
+  }
+
+  .phoneNum{
+    text-decoration: none;
+    color: black;
+  }
+  .phoneNum:hover{
+    text-decoration: underline;
+  }
+
+  #mobileStretch{
+    display: none;
+  }
+
+}
+
