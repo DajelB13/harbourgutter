@@ -56,15 +56,8 @@
   }
 
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 479px){
@@ -124,15 +117,8 @@
     margin-right: auto;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 575px){
@@ -193,15 +179,8 @@
     margin-right: auto;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -245,15 +224,8 @@
     margin-top: 18vh;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color:#4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 900px){
@@ -314,15 +286,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width:901px) and (max-width: 1023px){
@@ -385,15 +350,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 
@@ -452,15 +410,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 
