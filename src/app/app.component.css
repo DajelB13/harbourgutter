@@ -1,7 +1,4 @@
 @media screen and (min-width: 320px) and (max-width: 399px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -61,9 +58,6 @@
   }
 }
 @media screen and (min-width: 400px) and (max-width: 479px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -122,9 +116,6 @@
   }
 }
 @media screen and (min-width: 480px) and (max-width: 575px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -184,9 +175,6 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -253,18 +241,6 @@
     width: 40vw;
     height: 40vw;
   }
-  #callnow_mobile{
-    font-weight: bold;
-    color: black;
-    font-size: 1.1em;
-    position: relative;
-    left: 43vw;
-    bottom: 4vh;
-    text-decoration: none;
-  }
-  #callnow_mobile:hover{
-    text-decoration: underline;
-  }
   #navbar_mobile{
     position: relative;
     white-space: nowrap;
@@ -297,9 +273,6 @@
   #nav_elements_mobile{
     display: none;
   }
-  #callnow_mobile{
-    display: none;
-  }
   nav{
     background-color: #E6F4F1;
     height: 200px;
@@ -329,19 +302,6 @@
     font-weight: bold;
   }
 
-  #callnow{
-    font-size: 1.2em;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    bottom: 2vh;
-    right: 18%;
-    text-decoration: none;
-  }
-  #callnow:hover{
-    text-decoration: underline;
-  }
-
   #footer{
     margin-top: 15vh;
     margin-left: 20%;
@@ -362,9 +322,7 @@
   #nav_elements_mobile{
     display: none;
   }
-  #callnow_mobile{
-    display: none;
-  }
+
   nav{
     background-color: #E6F4F1;
     height: 18vh;
@@ -388,19 +346,6 @@
     top: 5vh;
     font-weight: bold;
     font-size:1.1em;
-  }
-
-  #callnow{
-    font-size: 1.2em;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    bottom: 2vh;
-    right: 33%;
-    text-decoration: none;
-  }
-  #callnow:hover{
-    text-decoration: underline;
   }
 
   #footer{
