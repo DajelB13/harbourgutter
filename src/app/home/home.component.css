@@ -23,6 +23,15 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
   }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
   #testimonials{
     position: relative;
     top: 15vh;
@@ -113,8 +122,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 479px){
@@ -141,6 +149,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
   #testimonials{
     position: relative;
@@ -232,8 +248,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 575px){
@@ -261,6 +276,14 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
   }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
   #testimonials{
     position: relative;
     top: 15vh;
@@ -350,8 +373,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -379,6 +401,14 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
   }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
   #testimonials{
     position: relative;
     top: 15vh;
@@ -468,8 +498,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 900px){
@@ -505,6 +534,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
 
   #testimonials{
@@ -605,8 +642,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 @media screen and (min-width:901px) and (max-width: 1023px){
@@ -643,6 +679,14 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     margin-bottom: 20%;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
 
   #testimonials{
@@ -739,8 +783,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 
@@ -778,6 +821,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
 
   #testimonials{
@@ -873,8 +924,7 @@
     color: black;
   }
   #viewTestimonials:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: lighter;
   }
 }
 

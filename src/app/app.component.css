@@ -1,7 +1,4 @@
 @media screen and (min-width: 320px) and (max-width: 399px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -56,21 +53,11 @@
   }
 
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 479px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -124,21 +111,11 @@
     margin-right: auto;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 575px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -193,21 +170,11 @@
     margin-right: auto;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
-  #callnow_mobile{
-    display: none;
-  }
   /*
   Hide desktop nav elements and use mobile instead
    */
@@ -245,15 +212,8 @@
     margin-top: 18vh;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color:#4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 900px){
@@ -281,18 +241,6 @@
     width: 40vw;
     height: 40vw;
   }
-  #callnow_mobile{
-    font-weight: bold;
-    color: black;
-    font-size: 1.1em;
-    position: relative;
-    left: 43vw;
-    bottom: 4vh;
-    text-decoration: none;
-  }
-  #callnow_mobile:hover{
-    text-decoration: underline;
-  }
   #navbar_mobile{
     position: relative;
     white-space: nowrap;
@@ -314,15 +262,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 @media screen and (min-width:901px) and (max-width: 1023px){
@@ -330,9 +271,6 @@
     display: none;
   }
   #nav_elements_mobile{
-    display: none;
-  }
-  #callnow_mobile{
     display: none;
   }
   nav{
@@ -364,19 +302,6 @@
     font-weight: bold;
   }
 
-  #callnow{
-    font-size: 1.2em;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    bottom: 2vh;
-    right: 18%;
-    text-decoration: none;
-  }
-  #callnow:hover{
-    text-decoration: underline;
-  }
-
   #footer{
     margin-top: 15vh;
     margin-left: 20%;
@@ -385,15 +310,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 
@@ -404,9 +322,7 @@
   #nav_elements_mobile{
     display: none;
   }
-  #callnow_mobile{
-    display: none;
-  }
+
   nav{
     background-color: #E6F4F1;
     height: 18vh;
@@ -432,19 +348,6 @@
     font-size:1.1em;
   }
 
-  #callnow{
-    font-size: 1.2em;
-    font-weight: bold;
-    color: black;
-    position: relative;
-    bottom: 2vh;
-    right: 33%;
-    text-decoration: none;
-  }
-  #callnow:hover{
-    text-decoration: underline;
-  }
-
   #footer{
     margin-top: 15vh;
   }
@@ -452,15 +355,8 @@
     display: none;
   }
 
-  .nav-link:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
-    text-decoration-thickness: 3px;
-  }
-
   .text-muted:hover{
-    text-decoration: underline;
-    text-decoration-color: #4BC8FF;
+    font-weight: bold;
   }
 }
 
