@@ -23,6 +23,15 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
   }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
   #testimonials{
     position: relative;
     top: 15vh;
@@ -140,6 +149,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
   #testimonials{
     position: relative;
@@ -259,6 +276,14 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
   }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
   #testimonials{
     position: relative;
     top: 15vh;
@@ -375,6 +400,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
   #testimonials{
     position: relative;
@@ -501,6 +534,14 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
 
   #testimonials{
@@ -638,6 +679,14 @@
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
     margin-bottom: 20%;
+  }
+
+  .btn{
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
   }
 
   #testimonials{
